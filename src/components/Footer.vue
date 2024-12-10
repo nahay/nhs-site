@@ -1,5 +1,5 @@
 <template>
-    <footer class="site-footer">
+    <footer class="footer">
         <p>this is just here so footer isnt empty! </p>
 
 
@@ -14,3 +14,10 @@ export default {
 
 }
 </script>
+
+<style scoped>
+.footer {
+    border-top: 1px solid black;
+    
+}
+</style>

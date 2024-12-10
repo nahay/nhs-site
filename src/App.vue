@@ -1,5 +1,5 @@
 <template>
-<div id="nhs-app">  
+<div id="app">  
         <Header />
     <div class="content">
         <router-view />
@@ -20,3 +20,12 @@ export default {
 };
 
 </script>
+
+<style>
+/* body {                      //for removing 8px padding around app
+    margin: 0 !important;
+} */
+/* #app {
+    width: 100vw;
+} */
+</style>
