@@ -22,10 +22,15 @@ export default {
 </script>
 
 <style>
-/* body {                      //for removing 8px padding around app
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.content {
+
+}
+body {
     margin: 0 !important;
-} */
-/* #app {
-    width: 100vw;
-} */
+}
 </style>

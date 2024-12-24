@@ -4,6 +4,8 @@ import { createRouter as createRouter, createWebHistory } from 'vue-router';
 //import views for router to show
 import HomeView from '../views/HomeView.vue';
 import ContactView from '../views/ContactView.vue';
+import AboutView from '../views/AboutView.vue';
+import ServicesView from '../views/ServicesView.vue';
 
 /**
  * The Vue Router is used to "direct" the browser to render a specific view component
@@ -19,15 +21,24 @@ const routes = [
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
+      // meta: { title: 'Home Page' } trying to change app title
     },
-
     {
         path: '/contact',
         name: 'contact',
         component: ContactView
     },
-    
+    {
+      path: '/services',
+      name: 'services',
+      component: ServicesView
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: AboutView
+    },
 ];
 
 // Create the router instance
