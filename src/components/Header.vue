@@ -1,11 +1,11 @@
 <template>
     <div id="header">
         <router-link to="/"><img src="../assets/CircleLogo.png" alt="logo" class="logo"></router-link>
-        <nav id="nav">
-            <router-link v-bind:to="{ name: 'home' }" class="nav-link"> Home </router-link> 
-            <router-link v-bind:to="{ name: 'contact' }" class="nav-link"> Contact </router-link>
-            <router-link v-bind:to="{ name: 'about' }" class="nav-link"> About </router-link>
-            <router-link v-bind:to="{ name: 'services' }" class="nav-link"> Services </router-link>
+        <nav id="nav"> 
+            <router-link v-bind:to="{ name: 'home' }" class="nav-link"> Home </router-link> |
+            <router-link v-bind:to="{ name: 'contact' }" class="nav-link"> Contact </router-link> |
+            <router-link v-bind:to="{ name: 'about' }" class="nav-link"> About </router-link> |
+            <router-link v-bind:to="{ name: 'services' }" class="nav-link"> Services </router-link> 
         </nav>
     </div>
 </template>
