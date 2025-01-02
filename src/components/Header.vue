@@ -1,6 +1,7 @@
 <template>
     <div id="header">
         <router-link to="/"><img src="../assets/CircleLogo.png" alt="logo" class="logo"></router-link>
+        <h1>Nahay Home Solutions</h1>
         <nav id="nav"> 
             <router-link v-bind:to="{ name: 'home' }" class="nav-link"> Home </router-link> |
             <router-link v-bind:to="{ name: 'contact' }" class="nav-link"> Contact </router-link> |
@@ -12,9 +13,11 @@
 <!-- v-if="this.$route.name=== 'home'    doesnt work-->  
 <style scoped>
 #header {
-    border-bottom: 1px solid black;
+    border-bottom: 1.5px solid black;
     display: flex;
     align-items: center;
+    background-color: #7c8363;
+    color: black;
 }
 .logo {
     height: 8vh;
