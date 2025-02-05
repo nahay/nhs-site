@@ -20,5 +20,7 @@ export default {
     border-top: 1px solid black;
     width: 100vw;
     height: 10vh;
+    background-color: pink;
+    color: blue;
 }
 </style>
