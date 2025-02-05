@@ -22,7 +22,6 @@ const routes = [
       path: '/',
       name: 'home',
       component: HomeView,
-      // meta: { title: 'Home Page' } trying to change app title
     },
     {
         path: '/contact',
@@ -44,7 +43,7 @@ const routes = [
 // Create the router instance
 const router = createRouter({
     history: createWebHistory(),
-    routes: routes //this is the routes array
+    routes: routes //this is the routes array from above
   });
 
 

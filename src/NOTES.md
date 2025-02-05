@@ -10,6 +10,15 @@ add content to each page, style after
 
 contact us page with email, phone number, facebook, instagram etc. 
 
-have on services page for each service to be a 100vw by like 20vh column of different services with opaque pic in background and large font in front of it where you can click it and it drops down to a larger version with pics of previous jobs and a description of why it benefits you to keep up with it/remodel/whatever
+have on services page for each service to be a 100vw by like 20vh column of different services with opaque pic in background and large font in front of it where you can click it and it drops down to a larger version with pics of previous jobs and a description of why it benefits you to keep up with it/remodel/whatever. add pricing to it as well and for jobs that arent hourly have a "request a quote" button they can click that takes them to a quote form to submit
 
 get a quote page/pricing
+
+figure out fonts: app.vue/body/font-family
+
+color pallettes: cream: #f5efd6
+                  sage: #7c8363
+                  pine: #31473a
+
+                  
+

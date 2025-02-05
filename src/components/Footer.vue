@@ -17,10 +17,13 @@ export default {
 
 <style scoped>
 .footer {
-    border-top: 1px solid black;
+    display: flex;
+    border-top: 1.5px solid black;
     width: 100vw;
     height: 10vh;
-    background-color: pink;
-    color: blue;
+    background-color: #7c8363;
+    color: black;
+    justify-content: center;
+    align-items: center;
 }
 </style>

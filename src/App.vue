@@ -3,8 +3,8 @@
         <Header />
     <div class="content">
         <router-view />
-        <Footer />
     </div>
+        <Footer />
 </div>
 </template>
 
@@ -28,9 +28,11 @@ export default {
     height: 100vh;
 }
 .content {
-
+min-height: 80vh;
+background-color: #f5efd6;
 }
 body {
     margin: 0 !important;
+    
 }
 </style>
