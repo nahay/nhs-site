@@ -18,10 +18,11 @@ export default {
 <style scoped>
 .footer {
     display: flex;
-    border-top: 1.5px solid black;
+    /* border-top: 1.5px solid black; */
     width: 100vw;
     height: 10vh;
-    background-color: #7c8363;
+    /* background-color: #7c8363; */
+    background-color: white;
     color: black;
     justify-content: center;
     align-items: center;

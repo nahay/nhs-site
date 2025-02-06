@@ -1,7 +1,7 @@
 <template>
     <div id="header">
-        <router-link to="/"><img src="../assets/CircleLogo.png" alt="logo" class="logo"></router-link>
-        <h1>Nahay Home Solutions</h1>
+        <router-link to="/"><img src="../assets/nhs-logo.png" alt="logo" class="logo"></router-link>
+        <h1>Solutions</h1>
         <nav id="nav"> 
             <router-link v-bind:to="{ name: 'home' }" class="nav-link"> Home </router-link> |
             <router-link v-bind:to="{ name: 'contact' }" class="nav-link"> Contact </router-link> |
@@ -12,20 +12,28 @@
 </template>
 <!-- v-if="this.$route.name=== 'home'    doesnt work-->  
 <style scoped>
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 #header {
-    border-bottom: 1.5px solid black;
+    /* border-bottom: 1.5px solid black; */
     display: flex;
     align-items: center;
-    background-color: #7c8363;
+    /* background-color: #7c8363; */
+    background-color: white;
     color: black;
 }
 .logo {
     height: 8vh;
     padding: .7vw;
 }
+.logo:hover {
+    transform: scale(1.05);
+}
 #nav {
     margin-left: auto;
     padding: .7vw;
+    text-shadow: 0px 0px 0.7px black;
 }
 .nav-link {
     display: inline-block;
@@ -35,7 +43,8 @@
     padding: .5vw;
 }
 .nav-link:hover {
-    text-shadow: 0.5px 0.5px 1px grey;
+    text-shadow: 0px 0px 0.5px black;
+    color: rgb(73, 72, 72);
 }
 
 

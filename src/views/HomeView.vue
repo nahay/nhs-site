@@ -11,4 +11,15 @@ export default {
 };
 </script> -->
 
-<style></style>
+<style>
+.homepage {
+    background-image: url("@/assets/nhs-home-pic.webp");
+    height: 80vh;
+
+    /*whole new component for just the background image to take up space if not having text over it to occupy the space to fill */
+
+}
+h1 {
+margin: 0;
+}
+</style>
