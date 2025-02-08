@@ -29,6 +29,7 @@ h1 {
 }
 .logo:hover {
     transform: scale(1.05);
+    transition-duration: 800ms;
 }
 #nav {
     margin-left: auto;
