@@ -20,5 +20,7 @@ color pallettes: cream: #f5efd6
                   sage: #7c8363
                   pine: #31473a
 
-                  
+get textarea in contact ppage to not be able to maximize beyond form area
+
+header font next to logo
 

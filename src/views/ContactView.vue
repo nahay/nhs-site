@@ -1,6 +1,26 @@
 <template>
-    <div>
-        <h1>Contact Us!</h1>
-        <p>Do it here</p>
-    </div>
+<div class="main"> 
+    <Contact />
+</div>      
 </template>
+
+<script>
+import Contact from '../components/Contact.vue';
+export default {
+    components: {
+        Contact
+    }
+}
+</script>
+
+<style>
+.main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-image: url("@/assets/blueprint.jpg");
+    background-size:cover;
+}
+</style>
