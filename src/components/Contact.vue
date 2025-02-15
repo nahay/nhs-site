@@ -5,6 +5,7 @@
                 <h1 class="contact-us">Contact Us</h1>
             </div class="inputs">
                 <input type="text" placeholder="Name" id="name" class="input"> <br>
+                <input type="text" placeholder="Phone Number" id="number" class="number"> <br>
                 <input type="text" placeholder="E-Mail" id="email" class="email"> <br>
                 <input type="text" placeholder="City, State" id="location" class="location"> <br>
                 <!-- <input type="text" placeholder="Brief Description of Project" id="description" class="description"> <br> -->
@@ -29,7 +30,7 @@
     padding: 1rem;
 }
 /* #description was included before text was replaced for textarea */
-#name, #email, #location {
+#name, #email, #location, #number {
     border-radius: 8px;
     height: 18px;
     width: 13vw;
@@ -37,6 +38,9 @@
     padding: 3px;
     padding-left: 6px;
 }
+/* textarea::-webkit-scrollbar {
+    width: 8px;
+} */
 .top {
     padding-bottom: 1rem;
 }
@@ -65,7 +69,8 @@
 } */
 .text {
     width: 13vw;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 2px solid black;
+    resize: none;
 }
 </style>
