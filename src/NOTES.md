@@ -24,3 +24,5 @@ get textarea in contact ppage to not be able to maximize beyond form area
 
 header font next to logo
 
+center and space contact us
+make things sized reactively to screen size and so that main view can change and not overflow into header/footer
