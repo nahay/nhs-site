@@ -5,10 +5,10 @@
                 <h1 class="contact-us">Contact Us</h1>
             </div>
             <div class="first-4">
-                <input type="text" placeholder="Name" id="name" class="input"> <br>
-                <input type="text" placeholder="Phone Number" id="number" class="number"> <br>
-                <input type="text" placeholder="E-Mail" id="email" class="email"> <br>
-                <input type="text" placeholder="City, State" id="location" class="location"> <br>
+                <input type="text" placeholder="Name" id="name" class="input"> &nbsp; &nbsp;
+                <input type="text" placeholder="Phone Number" id="number" class="number">
+                <input type="text" placeholder="E-Mail" id="email" class="email">  &nbsp; &nbsp;
+                <input type="text" placeholder="City, State" id="location" class="location">
             </div>
                 <!-- <input type="text" placeholder="Brief Description of Project" id="description" class="description"> <br> -->
                  <textarea name="text" rows="7" class="text" placeholder="Brief Description of Work" wrap="soft"></textarea>
@@ -25,8 +25,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 32vw;
+    justify-content: center;
+    width: 35vw;
+    margin-bottom: 10px;
+}
+.name, .number {
+    margin-bottom: 10px;
 }
 .contact {
     border: 2px solid black;

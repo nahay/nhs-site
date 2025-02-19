@@ -3,13 +3,32 @@
         <router-link to="/"><img src="../assets/nhs-logo.png" alt="logo" class="logo"></router-link>
         <h1>ahay Home Solutions</h1>
         <nav id="nav"> 
-            <router-link v-bind:to="{ name: 'home' }" class="nav-link"> Home </router-link> 
-            <router-link v-bind:to="{ name: 'contact' }" class="nav-link"> Contact </router-link> 
-            <router-link v-bind:to="{ name: 'about' }" class="nav-link"> About </router-link> 
-            <router-link v-bind:to="{ name: 'services' }" class="nav-link"> Services </router-link> 
+            <router-link v-bind:to="{ name: 'home' }" class="nav-link" v-if="!onHome"> Home </router-link> 
+            <router-link v-bind:to="{ name: 'contact' }" class="nav-link" v-if="!onContact"> Contact </router-link> 
+            <router-link v-bind:to="{ name: 'about' }" class="nav-link" v-if="!onAbout"> About </router-link> 
+            <router-link v-bind:to="{ name: 'services' }" class="nav-link" v-if="!onServices"> Services </router-link> 
         </nav>
     </div>
 </template>
+
+<script>
+export default {
+    computed: {
+        onHome() {
+            return this.$route.name === 'home';
+        },
+        onContact() {
+            return this.$route.name === 'contact';
+        },
+        onAbout() {
+            return this.$route.name === 'about';
+        },
+        onServices() {
+            return this.$route.name === 'services';
+        },
+    }
+}
+</script>
 <!-- v-if="this.$route.name=== 'home'    doesnt work-->  
 <style scoped>
 h1 {

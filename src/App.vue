@@ -26,9 +26,10 @@ export default {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    overflow-x: hidden;
 }
 .content {
-min-height: 80vh;
+min-height: 90vh;
 background-color: #f5efd6;
 }
 body {

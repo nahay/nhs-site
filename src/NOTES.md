@@ -26,3 +26,20 @@ header font next to logo
 
 center and space contact us
 make things sized reactively to screen size and so that main view can change and not overflow into header/footer
+
+use grid to make things go where they need to be (footer)
+
+make bulky text hidden when on mobile
+
+media query for custom styling
+
+<picture> for responsive images example:
+<picture>
+  <source srcset="image-mobile.jpg" media="(max-width: 768px)">
+  <source srcset="image-tablet.jpg" media="(max-width: 1024px)">
+  <img src="image-desktop.jpg" alt="Responsive Image">
+</picture>
+
+
+PAGE FOR COMMERCIAL AND RESIDENTIAL MAINTENANCE PLANS
+
