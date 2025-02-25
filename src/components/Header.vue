@@ -4,9 +4,9 @@
         <h1>ahay Home Solutions</h1>
         <nav id="nav"> 
             <router-link v-bind:to="{ name: 'home' }" class="nav-link" v-if="!onHome"> Home </router-link> 
+            <router-link v-bind:to="{ name: 'services' }" class="nav-link" v-if="!onServices"> Services </router-link> 
             <router-link v-bind:to="{ name: 'contact' }" class="nav-link" v-if="!onContact"> Contact </router-link> 
             <router-link v-bind:to="{ name: 'about' }" class="nav-link" v-if="!onAbout"> About </router-link> 
-            <router-link v-bind:to="{ name: 'services' }" class="nav-link" v-if="!onServices"> Services </router-link> 
         </nav>
     </div>
 </template>
@@ -29,11 +29,13 @@ export default {
     }
 }
 </script>
-<!-- v-if="this.$route.name=== 'home'    doesnt work-->  
+
 <style scoped>
 h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-style: italic; */
 }
+
 #header {
     /* border-bottom: 1.5px solid black; */
     display: flex;
