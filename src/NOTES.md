@@ -1,5 +1,7 @@
 FIXES:
 
+get contact form situated so info and socials are to the right of the paragraph and font scaled correctly
+
 make header cleaner 
 
 header font next to logo
@@ -14,7 +16,7 @@ have a page for inspiration of new trends/modern: color palettes, flooring, tile
 
 dropdown instead of the three router links in header when on mobile/tablet
 
-PAGE FOR COMMERCIAL AND RESIDENTIAL MAINTENANCE PLANS
+PAGE FOR COMMERCIAL AND RESIDENTIAL MAINTENANCE PLANS (under services)
 
 add content to each page, style after
 

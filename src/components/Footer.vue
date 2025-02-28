@@ -2,9 +2,9 @@
     <footer class="footer">
         <div class="main-footer">
                 <ul class="footer-list">
-                    <li>This</li>
+                    <!-- <li>This</li>
                     <li>Is</li>
-                    <li>An</li>
+                    <li>An</li> -->
                     <li>Example</li>
                     <li>List</li>
                 </ul>

@@ -4,6 +4,15 @@
             <div class="top">
                 <h1 class="contact-us">Contact Us</h1>
             </div>
+
+            <div class="paragraph">
+                <p>If you have any questions, comments or would like to request a quote, please contact us via phone, e-mail or the contact form below.</p>
+            </div>
+            <div class="info">
+                <h1>(999)123-4567</h1>
+                <h2>nahayhomesolutions@gmail.com</h2>
+            </div>
+            
             <div class="first-4">
                 <input type="text" placeholder="Name" id="name" class="input"> &nbsp; &nbsp;
                 <input type="text" placeholder="Phone Number" id="number" class="number">
@@ -21,6 +30,9 @@
 </template>
 
 <style>
+p {
+    font-size: 1vw;
+}
 .first-4 {
     display: flex;
     flex-direction: row;
@@ -55,9 +67,9 @@
 /* textarea::-webkit-scrollbar {
     width: 8px;
 } */
-.top {
+/* .top {
     padding-bottom: 1rem;
-}
+}     */   /* this was to gap the contact us before the paragraph was added */
 .bottom-text {
     margin-bottom: 0;
 }
