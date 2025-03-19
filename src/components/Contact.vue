@@ -8,11 +8,16 @@
             <div class="paragraph">
                 <p>If you have any questions, comments or would like to request a quote, please contact us via phone, e-mail or the contact form below.</p>
             </div>
+        <div class="contact-socials">
             <div class="info">
-                <h1>(999)123-4567</h1>
-                <h2>nahayhomesolutions@gmail.com</h2>
+                <p>(614) 736-1258</p>
+                <p>nahayhomesolutions@gmail.net</p> <!--change to correct number and .com when actually pushing site-->
+                <p>Powell, OH 43065</p>
             </div>
-            
+            <div class="social-icons">
+            <p>PLACEHOLDER FOR SOCIAL ICONS</p>
+            </div>
+        </div>    
             <div class="first-4">
                 <input type="text" placeholder="Name" id="name" class="input"> &nbsp; &nbsp;
                 <input type="text" placeholder="Phone Number" id="number" class="number">
@@ -30,8 +35,15 @@
 </template>
 
 <style>
-p {
-    font-size: 1vw;
+.info p{
+margin: 1vh;
+}
+.contact-socials {
+    display: flex;
+    flex-direction: row;
+}
+.paragraph {
+    font-size: 1.15vw;
 }
 .first-4 {
     display: flex;
@@ -39,7 +51,8 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     width: 35vw;
-    margin-bottom: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 .name, .number {
     margin-bottom: 10px;
@@ -70,9 +83,6 @@ p {
 /* .top {
     padding-bottom: 1rem;
 }     */   /* this was to gap the contact us before the paragraph was added */
-.bottom-text {
-    margin-bottom: 0;
-}
 .submit:hover {
     color: black;
     background-color: lightgray;
@@ -81,19 +91,19 @@ p {
 .submit {
     color: black;
     border-radius: 5px;
-    margin-top: 16px;
+    margin-top: 2vh;
 }
-/* .group {
-    width: 20vw;
-} */
 .bottom-text {
     font-size: 14px;
     color: rgb(97, 97, 97);
+    margin-bottom: 0;
+    margin-top: 2vh;
 }
 .text {
     width: 30vw;
     border-radius: 8px;
     border: 2px solid black;
     resize: none;
+    padding-left: 6px;
 }
 </style>

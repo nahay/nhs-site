@@ -12,7 +12,9 @@ Contact us form messes up when page is too narrow
 
 ADDITIONS:
 
-have a page for inspiration of new trends/modern: color palettes, flooring, tile, technology, appliances, lighting, carpentry, acccessories, etc.
+Quote generation page for things like hourly (including + materials needed, minimum two hour callout), painting (sq footage, if drywall work is needed, if paint is supplied or I'm buying), flooring (sq footage, if glue/any other consumables are needed, baseboards, underlayment)
+
+have a page for inspiration of new trends/modern: color palettes, flooring, tile, technology, appliances, lighting, carpentry, acccessories, etc. (In card style like castles on jp castles were)
 
 dropdown instead of the three router links in header when on mobile/tablet
 
